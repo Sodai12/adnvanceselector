@@ -1,0 +1,95 @@
+h1, h2, h3 {
+    color: darkgray;
+}
+
+.headerBox h2 {
+    color: aliceblue;
+}
+
+body p {
+    font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.grid .box:first-child {
+    background-color: orchid;
+}
+
+.Google {
+    color: #2ecc71;
+    text-decoration: underline;
+}
+
+#circleBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+    background-color: #9b59b6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.grid .box:hover, #circleBox .circle:hover {
+    transform: scale(1.05);
+}
+
+.boxSpecial {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.circleSpecial {
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.ellipse {
+    width: 100px;
+    height: 50px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
